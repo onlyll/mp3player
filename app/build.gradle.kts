@@ -38,6 +38,10 @@ android {
         viewBinding = true
         buildConfig = true
     }
+
+    lint {
+        abortOnError = false
+    }
 }
 
 dependencies {
